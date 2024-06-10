@@ -8,7 +8,7 @@
     # Desktop apps
     audacity
     chromium
-    telegram-desktop
+   # telegram-desktop
     alacritty
     obs-studio
     rofi
@@ -18,16 +18,16 @@
     discord
     gparted
     obsidian
-    zoom-us
+   # zoom-us
     pcmanfm-qt
-    polymc
+  #  polymc
 
     # Coding stuff
     gnumake
     gcc
     nodejs
-    python
-    (python3.withPackages (ps: with ps; [ requests ]))
+   # python
+   # (python3.withPackages (ps: with ps; [ requests ]))
 
     # CLI utils
     neofetch
