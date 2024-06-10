@@ -25,6 +25,7 @@
     # Coding stuff
     gnumake
     gcc
+    vscode
     nodejs
    # python
    # (python3.withPackages (ps: with ps; [ requests ]))
