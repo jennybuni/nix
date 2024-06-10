@@ -24,6 +24,7 @@
 
     # Coding stuff
     gnumake
+    gh
     gcc
     vscode
     nodejs
