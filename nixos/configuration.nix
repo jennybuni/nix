@@ -13,18 +13,16 @@
 
 services.greetd = {
     enable = true;
-    settings = {
-     default_session.command = ''
-      ${pkgs.greetd.tuigreet}/bin/tuigreet \
-        --time \
-        --asterisks \
-        --user-menu \
-        --cmd Hyprland
-    '';
+    settings = rec {
+     initial_session = {
+      command = ''${pkgs.hyprland}/bin/Hyprland'' ;
+    user = "jenny" ;
     };
-  };
+    default_session = initial_session;
 
-  networking.hostName = "nixos"; # Define your hostname.
+   };
+}
+  networking.hostName = "nixos" ; # Define your hostname.
 
  # time.timeZone = ""; # Set your time zone.
   services.gnome.gnome-keyring.enable = true;
