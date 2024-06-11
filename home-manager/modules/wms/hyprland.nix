@@ -24,8 +24,8 @@
 
       input = {
         kb_layout = "gb";
-        kb_variant = "lang";
-        kb_options = "grp:caps_toggle";
+        #kb_variant = "lang";
+        #kb_options = "grp:caps_toggle";
 
         follow_mouse = 1;
 

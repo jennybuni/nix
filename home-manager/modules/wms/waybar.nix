@@ -7,7 +7,7 @@
         position = "top";
         margin = "9 13 -10 18";
 
-        modules-left = ["hyprland/workspaces" "hyprland/language" "keyboard-state" "hyprland/submap"];
+        modules-left = ["hyprland/workspaces" "keyboard-state" "hyprland/submap"];
         modules-center = ["clock" "custom/weather"];
         modules-right = ["pulseaudio" "custom/mem" "cpu" "backlight" "battery" "tray"];
 
@@ -15,12 +15,12 @@
           disable-scroll = true;
         };
 
-    "hyprland/language" = {
-        format-en = "US";
-        format-ru = "RU";
-	      min-length = 5;
-	      tooltip = false;
-    };
+   # "hyprland/language" = {
+    #    format-en = "US";
+     #   format-ru = "RU";
+	  #    min-length = 5;
+	   #   tooltip = false;
+    #};
 
     "keyboard-state" = {
         #numlock = true;
