@@ -11,7 +11,6 @@
 
 #  nixpkgs.overlays = [ inputs.polymc.overlay ];
 
-programs.regreet.enable = true;
 
   networking.hostName = "nixos" ; # Define your hostname.
 

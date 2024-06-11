@@ -58,7 +58,7 @@
     lazygit
     bluez
     bluez-tools
-    greetd.tuigreet
+    # greetd.tuigreet
 
     # GUI utils
     feh
