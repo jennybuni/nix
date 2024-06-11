@@ -11,6 +11,19 @@
 
 #  nixpkgs.overlays = [ inputs.polymc.overlay ];
 
+services.greetd = {
+    enable = true;
+    settings = {
+     default_session.command = ''
+      ${pkgs.greetd.tuigreet}/bin/tuigreet \
+        --time \
+        --asterisks \
+        --user-menu \
+        --cmd Hyprland
+    '';
+    };
+  };
+
   networking.hostName = "nixos"; # Define your hostname.
 
  # time.timeZone = ""; # Set your time zone.

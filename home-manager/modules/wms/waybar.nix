@@ -7,8 +7,8 @@
         position = "top";
         margin = "9 13 -10 18";
 
-        modules-left = ["hyprland/workspaces" "keyboard-state" "hyprland/submap"];
-        modules-center = ["clock" "custom/weather"];
+        modules-left = ["hyprland/workspaces" "clock" "keyboard-state" "hyprland/submap"];
+        modules-center = ["custom/weather"];
         modules-right = ["pulseaudio" "custom/mem" "cpu" "backlight" "battery" "tray"];
 
         "hyprland/workspaces" = {
